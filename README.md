@@ -7,7 +7,7 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   We will obtain `outputdt.geojson`	
 
-- Change a tag value --> string to integer --> `"100"` to `100`
+- **Change a tag value** --> string to integer(`"100"` to `100`)
 
   `node changevalue.js <file>`
 
