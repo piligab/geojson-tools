@@ -11,14 +11,11 @@ for (var i = 0; i < obj.features.length; i++) {
 	}
 
 	obj.features[i].properties.population = parseInt(obj.features[i].properties.population);
-	obj.features[i].properties.name = titleCase(obj.features[i].properties.name);
-	console.log(obj.features[i].properties.name);
-
-	console.log(obj.features[i].properties.population);
+	obj.features[i].properties.name = titleCase(obj.features[i].properties.name);	
 }
 
 
-fs.writeFile("output.geojson", JSON.stringify(obj) , function(err) {
+fs.writeFile("outputcv.geojson", JSON.stringify(obj) , function(err) {
     if(err) {
         return console.log(err);
     }

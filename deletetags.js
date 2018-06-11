@@ -15,7 +15,7 @@ for (var i = 0; i < obj.features.length; i++) {
   delete obj.features[i].properties.id;
 }
 
-fs.writeFile("output.geojson", JSON.stringify(obj) , function(err) {
+fs.writeFile("outputdt.geojson", JSON.stringify(obj) , function(err) {
     if(err) {
         return console.log(err);
     }
