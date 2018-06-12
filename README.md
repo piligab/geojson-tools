@@ -7,7 +7,8 @@ Execute this code: `npm install minimist`
 **Install:**
 
 
-```git clone git@github.com:piligab/geojson-tools.git
+```
+git clone git@github.com:piligab/geojson-tools.git
 cd geojson-tools/
 npm link
 ```
