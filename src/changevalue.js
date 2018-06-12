@@ -2,11 +2,11 @@ var fs = require('fs');
 //var argv = require('minimist')(process.argv.slice(2));
 //var file = argv._[0];
 const turf = require('@turf/turf');
-
+module.exports = function (file) {
 //var obj = JSON.parse(fs.readFileSync(file, 'utf8'));
 var obj = JSON.parse(fs.readFileSync(file).toString());
 
-module.exports = function (file) {
+
 
 for (var i = 0; i < obj.features.length; i++) {
 
