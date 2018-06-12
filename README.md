@@ -1,8 +1,10 @@
 # geojson-tools
 
-Many times we have a .geojson file, but we want to make some changes, here you find:
+**Pre-requisites:**
 
-First execute this code: `npm install minimist`
+Execute this code: `npm install minimist`
+
+Many times we have a .geojson file, but we want to make some changes, here you find:
 
 - **Delete tags**  --> `uid`, `id`, `user`, `timestamp`, `changeset` and `version`
 
