@@ -1,5 +1,6 @@
 var fs = require('fs');
 //var argv = require('minimist')(process.argv.slice(2));
+const turf = require('@turf/turf');
 
 module.exports = function (file) {
 
