@@ -10,7 +10,6 @@ Execute this code: `npm install minimist`
 ```
 git clone git@github.com:piligab/geojson-tools.git
 cd geojson-tools/
-npm link
 ```
 
 
