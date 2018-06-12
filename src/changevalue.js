@@ -1,6 +1,6 @@
 var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
-var file = argv._[0];
+//var file = argv._[0];
 
 var obj = JSON.parse(fs.readFileSync(file, 'utf8'));
 
