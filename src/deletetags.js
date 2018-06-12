@@ -23,4 +23,4 @@ fs.writeFile("output.geojson", JSON.stringify(obj) , function(err) {
     console.log("The file was saved!");
 });
 
-}
+//}
