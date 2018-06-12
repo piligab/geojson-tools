@@ -1,7 +1,7 @@
 var fs = require('fs');
 //var argv = require('minimist')(process.argv.slice(2));
 
-module.exports = function (file) {
+//module.exports = function (file) {
 
 var obj = JSON.parse(fs.readFileSync(file, 'utf8'));
 
