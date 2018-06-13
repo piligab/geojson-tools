@@ -1,5 +1,5 @@
 var fs = require('fs');
-const turf = require('@turf/turf');
+var turf = require('@turf/turf');
 
 module.exports = function(file) {
 

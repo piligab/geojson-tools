@@ -10,6 +10,7 @@ Execute this code: `npm install minimist`
 ```
 git clone git@github.com:piligab/geojson-tools.git
 cd geojson-tools/
+npm link
 ```
 
 
@@ -17,13 +18,13 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
 - **Delete tags**  --> `uid`, `id`, `user`, `timestamp`, `changeset` and `version`
 
-  `node deletetags.js <file>`
+  `tool deletetags <file>`
 
-  We will obtain `outputdt.geojson`	
+  We will obtain `output.geojson`	
 
 - **Change a tag value** --> string to integer(`"100"` to `100`)
 
-  `node changevalue.js <file>`
+  `tool changevalue <file>`
 
   We will obtain `outputcv.geojson`	
 
