@@ -4,7 +4,7 @@
 
 Execute this code: `npm install minimist`
 
-**Install:**
+## Install:
 
 
 ```
@@ -13,6 +13,7 @@ cd geojson-tools/
 npm link
 ```
 
+## Tools:
 
 Many times we have a .geojson file, but we want to make some changes, here you find:
 
@@ -27,5 +28,11 @@ Many times we have a .geojson file, but we want to make some changes, here you f
   `tool changevalue <file>`
 
   We will obtain `outputcv.geojson`	
+
+- **Change .geojson to .poly** --> the geojson file should be a polygon
+
+  `tool poly <file.geojson> > file.poly`
+
+  	
 
 
