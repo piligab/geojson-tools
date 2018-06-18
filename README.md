@@ -33,6 +33,10 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   `tool poly <file.geojson> > file.poly`
 
+- **Polygon Area - m2-km2-ha** --> the geojson file should be a polygon
+
+  `tool area <file.geojson> >`
+
   	
 
 
