@@ -37,6 +37,8 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   `tool area <file.geojson> >`
 
-  	
+- **Distance moved** 
+
+  `tool distancemoved input.geojson > output.geojson`  	
 
 
