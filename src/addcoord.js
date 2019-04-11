@@ -12,6 +12,14 @@ module.exports = function (file) {
     b = obj.features[i].geometry.coordinates[1];
     obj.features[i].properties.x_field = a;
     obj.features[i].properties.y_field = b;
+
+    delete obj.features[i].properties.timestamp;
+    delete obj.features[i].properties.version;
+    delete obj.features[i].properties.changeset;
+    delete obj.features[i].properties.user;
+    delete obj.features[i].properties.uid;
+    // delete obj.features[i].properties.N�� CALLE;
+    delete obj.features[i].properties.id;
   }
 
   // fs.writeFile(JSON.stringify(obj));
