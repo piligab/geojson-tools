@@ -6,6 +6,7 @@ var changevalue = require('./src/changevalue');
 var poly = require('./src/poly');
 var area = require('./src/area');
 var distancemoved = require('./src/distancemoved');
+var addcoord = require('./src/addcoord');
 
 var action = argv._[0];
 var file = argv._[1];
@@ -25,6 +26,9 @@ switch (action) {
 		break;
 	case 'distancemoved':
 		distancemoved(file);
+		break;
+	case 'addcoord':
+		addcoord(file);
 		break;
 	default:
 		console.log('unknown command');
