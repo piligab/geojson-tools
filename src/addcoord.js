@@ -13,16 +13,18 @@ module.exports = function (file) {
     obj.features[i].properties.x_field = a;
     obj.features[i].properties.y_field = b;
 
-    delete obj.features[i].properties.timestamp;
-    delete obj.features[i].properties.version;
-    delete obj.features[i].properties.changeset;
-    delete obj.features[i].properties.user;
-    delete obj.features[i].properties.uid;
-    // delete obj.features[i].properties.N�� CALLE;
-    delete obj.features[i].properties.id;
+    // delete obj.features[i].properties.timestamp;
+    // delete obj.features[i].properties.version;
+    // delete obj.features[i].properties.changeset;
+    // delete obj.features[i].properties.user;
+    // delete obj.features[i].properties.uid;
+    // // delete obj.features[i].properties.N�� CALLE;
+    // delete obj.features[i].properties.id;
+    // delete obj.features[i].properties._address;
+    // delete obj.features[i].properties.score;
+    // delete obj.features[i].properties.fixAddress;
   }
 
-  // fs.writeFile(JSON.stringify(obj));
   console.log(JSON.stringify(obj));
 
 };
