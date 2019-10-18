@@ -44,10 +44,4 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   `tool addcoord input.geojson > output.geojson`
 
-<!-- - **Convert array** --> convert one atribute in array
 
-  `tool convert_array input.geojson`
-
-- **Count POI's and tiles that exist in the file** --> use the oputput from **Convert array** (script above), and the yu can view the output in console. 
-
-  `tool count_pois_tiles` -->
