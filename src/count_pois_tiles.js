@@ -1,6 +1,13 @@
 var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
-var obj = JSON.parse(fs.readFileSync('attribute_in_array.geojson', 'utf8'));
+var file = argv._[0];
+var obj = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+for (var i = 0; i < obj.features.length; i++) {
+
+  var cadena = obj.features[i].properties.label + "";
+  obj.features[i].properties.label = cadena.split(",");
+}
 
 console.log("Total tilesTotal number of tiles in the file: " + obj.features.length);
 
