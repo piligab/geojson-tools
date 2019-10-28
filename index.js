@@ -7,8 +7,7 @@ var poly = require('./src/poly');
 var area = require('./src/area');
 var distancemoved = require('./src/distancemoved');
 var addcoord = require('./src/addcoord');
-var convert_array = require('./src/convert_array');
-var count_pois_tiles = require('./src/count_pois_tiles');
+var convertreport = require('./src/convertreport');
 
 var action = argv._[0];
 var file = argv._[1];
@@ -32,12 +31,9 @@ switch (action) {
 	case 'addcoord':
 		addcoord(file);
 		break;
-	// case 'convert_array':
-	// 	convert_array(file);
-	// 	break;
-	// case 'count_pois_tiles':
-	// 	count_pois_tiles(file);
-	// 	break;
+	case 'convertreport':
+		convertreport(file);
+		break;
 	default:
 		console.log('unknown command');
 }
