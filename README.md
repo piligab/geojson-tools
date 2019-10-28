@@ -44,4 +44,8 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   `tool addcoord input.geojson > output.geojson`
 
+- **Convert and report** --> convert an attribute in array, then it obtains a report per each POI and number of tiles inside the file. *for a specific project*
+
+  `tool convertreport input.geojson`
+
 
