@@ -7,7 +7,9 @@ var poly = require('./src/poly');
 var area = require('./src/area');
 var distancemoved = require('./src/distancemoved');
 var addcoord = require('./src/addcoord');
-var convertreport = require('./src/convertreport');
+var countpoitile = require('./src/countpoitile');
+var replacestr = require('./src/replacestr');
+
 
 var action = argv._[0];
 var file = argv._[1];
@@ -31,9 +33,13 @@ switch (action) {
 	case 'addcoord':
 		addcoord(file);
 		break;
-	case 'convertreport':
-		convertreport(file);
+	case 'countpoitile':
+		countpoitile(file);
 		break;
+	case 'replacestr':
+		replacestr(file);
+		break;
+
 	default:
 		console.log('unknown command');
 }
