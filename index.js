@@ -9,7 +9,7 @@ var distancemoved = require('./src/distancemoved');
 var addcoord = require('./src/addcoord');
 var countpoitile = require('./src/countpoitile');
 var replacestr = require('./src/replacestr');
-
+var deletedecimal = require('./src/deletedecimal');
 
 var action = argv._[0];
 var file = argv._[1];
@@ -39,6 +39,10 @@ switch (action) {
 	case 'replacestr':
 		replacestr(file);
 		break;
+	case 'deletedecimal':
+			deletedecimal(file);
+			break;
+	
 
 	default:
 		console.log('unknown command');
