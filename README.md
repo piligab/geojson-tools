@@ -52,6 +52,10 @@ Many times we have a .geojson file, but we want to make some changes, here you f
 
   `tool countpoitile input.geojson`
 
+- **Delete decimals** --> convert a decimal attribute into an integer.
+
+  `tool deletedecimal input.geojson > output.geojson`
+
 
 
 
